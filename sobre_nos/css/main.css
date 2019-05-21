@@ -84,8 +84,19 @@ p {
 .self {
     width: 100%;
     max-width: 100%;
-    background-color: #cbcbcb;
+    background-color: #cbcbcb;    
 }
+
+.self__curve {
+    background-color: #cbcbcb;
+    height: 150px;
+    -webkit-clip-path: polygon(0 100%, 100% 0, 100% 100%, 0% 100%);
+    clip-path: polygon(0 100%, 100% 0, 100% 100%, 0% 100%);
+    position: relative;
+    bottom: 150px;
+    z-index: -1;
+}
+
  h2 {
     color:#793df5;
     font-size: 2.8125rem;
@@ -110,13 +121,12 @@ p {
     background-color: #793df5;
     border: none;
     border-radius: 16px;
-    width: 18vw;
-    height: 6vh;
     color: #fff;
+    padding: 1.5vh 0;
+    width: 17vw;
 }
 
 .about {
-    padding-top: 3%;
     display: flex;
     align-items: center;
     max-width: 75%;
@@ -124,6 +134,10 @@ p {
     position: relative;
     flex-wrap: wrap;
     justify-content: center;
+}
+
+.about__position {
+    margin-top: -8%;
 }
 .about__purple {
     align-self: normal;
@@ -148,19 +162,22 @@ p {
  .about__summary {
     width: 50%;
     margin:0 2%;
+    max-width: 100%;
  }
 
  .photos {
     width: 360px;
     max-width: 100%;
+    position: relative;
  }
 
- .photos__espelhos {
+ .figure__mirror {
     width: 300px;
     max-width: 100%;
+    position: relative;
  }
 
- .vinculo {
+ .bond {
     display: flex;
     align-items: center;
     max-width: 75%;
@@ -169,10 +186,37 @@ p {
     position: relative;
     flex-wrap: wrap;
     justify-content: center;
-
+    padding-bottom: 2%;
  }
 
- .vinculo__purple {
+ .bond__purple {
     position: absolute;
-    right: 100px;
+    right: 10px;
+    
+ }
+
+ .about__figure {
+     position: relative;
+ }
+
+ .about__circle-white {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: #fff;
+    position: absolute;
+ }
+
+ .figure {
+    margin-top: 19%;
+    margin-left: -3%;
+ }
+
+ .about__bonde {
+    margin-top: 20%;
+ }
+
+ .about__orientation {
+    margin-top: 18%;
  }
