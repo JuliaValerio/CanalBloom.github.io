@@ -217,13 +217,13 @@ display: flex !important;
 
 .tns-outer {
     margin: 0 auto;
-    height: 150vh;
+    height: 100vh;
 }
 
 .section__icon{
     display: flex;
     margin-left: 130px;
-    margin-top: 50px;
+    margin-top: 10px;
     margin-bottom: 35px;
 }
 
@@ -233,8 +233,8 @@ display: flex !important;
 }
 
 .img__bus{
-    width: 745px;
-    margin-top: -60px;
+    width: 800px;
+    margin-top: -100px;
     margin-left: 30px;
 }
 
@@ -329,11 +329,8 @@ display: flex !important;
 }
 
 .content__app__img__slide1{
-    z-index: 99;
-    display: flex;
-    justify-content: flex-end;
     margin-top: -120px;
-    margin-right: 70px;
+    margin-left: 500px;
 }
 
 .content__app__img__slide3{
@@ -349,11 +346,93 @@ display: flex !important;
     width: 150px;
     height: 50px;
 }
+.works{
+    display: flex;
+    flex-direction: row;
+}
+.how__it__works{
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    margin: 25px;
+}
+
+.how__it__works > h1{
+    padding: 24px;
+}
+
+.how__it__works > p{
+    padding: 35px;
+    margin-left: 15px;
+}
+
+.how__it__works > button{
+    margin: 25px;
+}
+
+.how__it__works__img{
+    width: 33%;
+    margin: 0 auto;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.work__img{
+    width: 65%;
+}
+
+.icon__work{
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+}
+
+.content__icon{
+    display: flex;
+    flex-direction: row;
+}
+
+.icon{
+    width: 50px;
+    height: 50px;
+    margin-top: 30px;
+}
+
+.text__icon{
+    width: 50%;
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+}
+
+.btn-purple__2{
+    display: inline-block;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 12px 30px;
+    border-radius: 30px;
+    font-weight: 700;
+    font-size: 18px;
+    background: #793df5;
+    cursor: pointer;
+    transition: .5s; 
+    border: none;
+    width: 360px;
+    margin: 25px;
+}
+
+.btn-purple__2:hover{
+    background-color: #a680f4;
+}
+
+
+
 /* Responsive */
 
 @media (max-width: 420px) {
     .container {
         max-width: 90%;
+        flex-wrap: wrap;
     }
 
 }
@@ -361,6 +440,7 @@ display: flex !important;
 @media (max-width: 1024px) {
     .container {
         width: 100%;
+        flex-wrap: wrap;
     }
 
 }
