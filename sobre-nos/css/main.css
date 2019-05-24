@@ -1,23 +1,23 @@
 @font-face {
     font-family: 'MarkOT-Bold';
-    src:url('../../Fontes/MarkOT-Bold/MarkOT-Bold.eot') format('embedded-opentype'), 
-        url('../../Fontes/MarkOT-Bold/MarkOT-Bold.woff') format('woff'), 
-        url('../../Fontes/MarkOT-Bold/MarkOT-Bold.ttf')  format('truetype'), 
+    src: url('../../Fontes/MarkOT-Bold/MarkOT-Bold.eot') format('embedded-opentype'),
+        url('../../Fontes/MarkOT-Bold/MarkOT-Bold.woff') format('woff'),
+        url('../../Fontes/MarkOT-Bold/MarkOT-Bold.ttf') format('truetype'),
         url('../../Fontes/MarkOT-Bold/MarkOT-Bold.svg') format('svg');
     font-weight: normal;
     font-style: normal;
-  }
+}
 
 
 @font-face {
     font-family: 'MarkPro';
-    src: url('../../Fontes/MarkPro/MarkPro.eot') format('embedded-opentype'),  
-        url('../../Fontes/MarkPro/MarkPro.woff') format('woff'), 
-        url('../../Fontes/MarkPro/MarkPro.ttf')  format('truetype'), 
+    src: url('../../Fontes/MarkPro/MarkPro.eot') format('embedded-opentype'),
+        url('../../Fontes/MarkPro/MarkPro.woff') format('woff'),
+        url('../../Fontes/MarkPro/MarkPro.ttf') format('truetype'),
         url('../../Fontes/MarkPro/MarkPro.svg') format('svg');
     font-weight: normal;
     font-style: normal;
-  }
+}
 
 * {
     padding: 0;
@@ -28,8 +28,17 @@ body {
     font-family: 'MarkPro', sans-serif;
 }
 
-h1, h2 {
+h1,
+h2 {
     font-family: 'MarkOT-Bold', sans-serif;
+}
+
+.container {
+    width: 100%;
+}
+
+.menu-mobile {
+    display: none;
 }
 
 .navegacao {
@@ -39,7 +48,7 @@ h1, h2 {
 }
 
 .navegacao__logo {
-    width: 13%;
+    width: 200px;
 }
 
 .navegacao__conteudo {
@@ -52,7 +61,7 @@ h1, h2 {
     text-decoration: none;
     text-transform: uppercase;
     font-size: 13px;
-    font-weight: 600;   
+    font-weight: 600;
 }
 
 .menu__link {
@@ -66,7 +75,7 @@ h1, h2 {
 }
 
 .branco {
-    border: #793df5 solid 1px; 
+    border: #793df5 solid 1px;
 }
 
 .roxo {
@@ -74,10 +83,6 @@ h1, h2 {
     color: #ffffff;
 }
 
-
-.container {
-    width: 100%;
-}
 
 h2 {
     padding-bottom: 2%;
@@ -107,7 +112,7 @@ p {
 .self {
     width: 100%;
     max-width: 100%;
-    background-color: #cbcbcb;    
+    background-color: #cbcbcb;
 }
 
 .self__curve {
@@ -120,14 +125,14 @@ p {
     z-index: -1;
 }
 
- h2 {
-    color:#793df5;
+h2 {
+    color: #793df5;
     font-size: 2.8125rem;
     font-weight: bold;
 }
 
 .science h1 {
-    color:#793df5;
+    color: #793df5;
     width: 40%;
     padding-bottom: 2%;
     font-size: 3.125rem;
@@ -138,6 +143,7 @@ p {
     width: 35%;
     padding-bottom: 2%;
 }
+
 .science__button {
     font-weight: bold;
     text-transform: uppercase;
@@ -146,7 +152,7 @@ p {
     border-radius: 16px;
     color: #fff;
     padding: 1.5vh 0;
-    width: 17vw;
+    width: 19vw;
 }
 
 .about {
@@ -162,9 +168,11 @@ p {
 .about__position {
     margin-top: -8%;
 }
+
 .about__purple {
     align-self: normal;
 }
+
 .about__circle {
     width: 100px;
     height: 100px;
@@ -172,35 +180,35 @@ p {
     overflow: hidden;
     background-color: #793df5;
     color: #fff;
- }
+}
 
- .about_p {
+.about_p {
     margin-top: 32px;
     margin-left: 40px;
     font-weight: bold;
     font-size: 2rem;
     color: #fff;
- }
+}
 
- .about__summary {
+.about__summary {
     width: 50%;
-    margin:0 2%;
+    margin: 0 2%;
     max-width: 100%;
- }
+}
 
- .photos {
+.photos {
     width: 360px;
     max-width: 100%;
     position: relative;
- }
+}
 
- .figure__mirror {
+.figure__mirror {
     width: 300px;
     max-width: 100%;
     position: relative;
- }
+}
 
- .bond {
+.bond {
     display: flex;
     align-items: center;
     max-width: 75%;
@@ -210,53 +218,54 @@ p {
     flex-wrap: wrap;
     justify-content: center;
     padding-bottom: 2%;
- }
+}
 
- .bond__purple {
+.bond__purple {
     position: absolute;
     right: 10px;
-    
- }
 
- .about__figure {
-     position: relative;
- }
+}
 
- .about__circle-white {
+.about__figure {
+    position: relative;
+}
+
+.about__circle-white {
     width: 300px;
     height: 300px;
     border-radius: 50%;
     overflow: hidden;
     background-color: #fff;
     position: absolute;
- }
+    margin-left: -3%
+}
 
- .figure {
+.figure {
     margin-top: 19%;
     margin-left: -3%;
- }
+}
 
- .about__bonde {
+.about__bonde {
     margin-top: 20%;
- }
+}
 
- .about__orientation {
+.about__orientation {
     margin-top: 18%;
- }
-  
+}
+
 
 h2 {
     padding-bottom: 0;
     padding-top: 30px;
 }
 
-.container__inspirations{
+.container__inspirations {
     max-width: 80%;
     margin: 0 auto;
 }
 
 .title-inspirations {
-    color:#793df5;
+    color: #793df5;
     font-size: 25px;
     text-align: center;
     padding-bottom: 15px;
@@ -309,7 +318,7 @@ h2 {
     display: none;
 }
 
-.tns-nav > button {
+.tns-nav>button {
     width: 9px;
     height: 9px;
     padding: 0;
@@ -328,7 +337,8 @@ h2 {
     width: 100%;
 }
 
-.left, .right {
+.left,
+.right {
     padding: 30px 0px;
 }
 
@@ -344,47 +354,18 @@ h2 {
     padding-top: 15px
 }
 
-.txt-img > span {
+.txt-img>span {
     font-weight: bold;
 }
 
-/* Responsive */
-
-@media (max-width: 420px) {
-    .container {
-        max-width: 90%;
-    }
-
-    .subtitle-inspirations {
-    width: 100%; 
-    }
-    
-    .img-right, .img-left {
-    width: 50px
-    }
-}
-
-@media (max-width: 1024px) {
-    .container {
-        width: 100%;
-    }
-
-    .subtitle-inspirations {
-        width: 100%
-    }
-
-    .img-right, .img-right {
-        width: 50px;
-    }
-}
 
 /* FOOTER */
 
-.icons_footer{
+.icons_footer {
     width: 30px;
 }
 
-.footer_white{
+.footer_white {
     text-align: center;
     padding: 60px 0;
     background-color: white;
@@ -400,4 +381,199 @@ a {
     margin: 0 auto;
     width: 400px;
     padding: 40px 0px;
+    max-width: 100%;
+}
+
+
+/* Responsive */
+
+@media (max-width: 420px) {
+
+    .science h1 {
+        width: 100%;
+    }
+
+    .science__p {
+        width: 100%;
+    }
+
+    .science__method {
+        background-image: none;
+    }
+
+    .about__summary {
+        width: 100%
+    }
+
+    h2 {
+        font-size: 2.30rem;
+        padding: 3% 0;
+    }
+
+    p {
+        font-size: 1.15rem;
+    }
+
+    .bond__purple {
+        position: relative;
+        padding: 10% 0;
+    }
+
+    .about__position {
+        margin-top: -23%;
+    }
+
+    .about__purple {
+        padding-top: 4%
+    }
+
+
+    .science__button {
+        padding: 1.7vh 0;
+        width: 60vw;
+    }
+
+    .summary__mobile {
+        padding: 3% 0;
+    }
+
+    .summary__mobile-about {
+        padding-top: 60px;
+        padding-bottom: 30px;    
+    }
+
+    .subtitle-inspirations {
+        width: 100%;
+    }
+
+    .img-right,
+    .img-left {
+        width: 50px
+    }
+
+    /* menu mobile */
+
+    .navegacao__menu {
+        display: none;
+    }
+
+    .menu-mobile {
+        display: block;
+    }
+
+    .navegacao__logo {
+        width: 130px;
+        max-width: 100%;
+    }
+
+    .menu_hamburguer {
+        width:47px
+    }
+
+    .logo {
+        padding:0 55px;
+
+    }
+    .navegacao__conteudo {
+         justify-content: flex-end;
+    }
+    
+    .links {
+        display: block;
+        margin-left: 15px;
+        margin-top: 20px;
+        margin-bottom: 5px;
+    }
+
+    .lista_links {
+        display: block;
+        position: fixed;
+        top: 50px;
+        background-color: #fff;
+        width: 50vw;
+    }   
+
+    li+li {
+        margin-left: 0px;
+        margin-top: 30px;
+    }
+
+    li a {
+        color: #793df5;;
+    }
+
+    .visivel {
+        margin-top: 10px;
+        right: 0;
+        transition: 100ms;
+    }
+
+    .escondido {
+        left: -70vw;
+    }
+
+    .fechar {
+        width: 100%;
+        text-align: end;
+        display: block;
+    }
+
+}
+
+@media (max-width: 414px) {
+    .summary__mobile-about {
+        padding-top: 20%;
+        padding-bottom: 10%;
+    }
+
+    .summary__mobile {
+        padding: 3% 0;
+}
+}
+
+@media (max-width: 375px) {
+
+    .science {
+        margin-top: 0%;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    .science__button {
+        padding: 1.6vh 0;
+        width: 67vw;
+    }
+
+    .about__summary {
+        padding-top: 0;
+    }
+
+    .summary__mobile {
+        padding: 10% 0;
+        padding-top: 20%;
+    }
+
+    .summary__mobile-about {
+        padding-top: 35%;
+        padding-bottom: 10%;
+    }
+
+
+}
+
+@media (max-width: 1024px) {
+    .container {
+        width: 100%;
+    }
+
+    .subtitle-inspirations {
+        width: 100%
+    }
+
+    .img-right,
+    .img-right {
+        width: 50px;
+    }
 }

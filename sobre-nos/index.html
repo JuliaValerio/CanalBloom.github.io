@@ -5,8 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="./css/main.css">
-    <link rel="stylesheet" href="./css/main2.css">
+    <link rel="stylesheet" href="./css/sobre-nos.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.1/tiny-slider.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
     <title>Canal Bloom</title>
@@ -14,8 +13,9 @@
 <nav class="navegacao">
 
     <div class="navegacao__conteudo">
-        <img class="navegacao__logo" src="./img/logo-nav.png" alt="logo canal bloom">
-
+        <div class="logo">
+            <img class="navegacao__logo" src="./img/logo-nav.png" alt="logo canal bloom">
+        </div>
         <div class="navegacao__menu">
             <a class="menu__link" href="../sobre_nos/index.html">Sobre Nós</a>
             <a class="menu__link" href="">Blog</a>
@@ -23,6 +23,17 @@
             <a class="menu__link" href="../empresas/index.html">Empresas</a>
             <a class="menu__botao branco" href="">Entrar</a>
             <a class="menu__botao roxo" href="">Cadastre-se gratuitamente</a>
+        </div>
+
+        <div class="menu-mobile">
+            <img src="./img/menu.png" alt="Botão menu" class="menu_hamburguer">
+            <ul class="lista_links escondido">
+                <li class="links"><a href="#">Sobre nós</a></li>
+                <li class="links"><a href="#">Blog</a></li>
+                <li class="links"><a href="#">Dúvidas</a></li>
+                <li class="links"><a href="#">Empresas</a></li>
+                <li class="links"><a href="#">Entrar</a></li>
+            </ul>
         </div>
     </div>
 </nav>
@@ -44,7 +55,7 @@
                     entenda por que eles são fundamentais para
                     uma vida familiar mais harmoniosa.</p>
 
-               
+
             </div>
             <button class="science__button">Cadastra-se gratuitamente</button>
             <!-- <div class="science__teste">
@@ -86,7 +97,7 @@
             <div class="bond">
                 <div class="about__purple bond__purple">
                     <div class="about__circle">
-                            <p class="about_p">2</p>
+                        <p class="about_p">2</p>
                     </div>
                 </div>
 
@@ -95,7 +106,7 @@
                     </div>
                     <img class="photos" src="./img/brinquedos.png" alt="familia brincando">
                 </div>
-                <div class="about__summary">
+                <div class="about__summary summary__mobile">
                     <h2>Vínculo</h2>
                     <p>Depois de cuidar de você, é hora de acolher a
                         criança e fortalecer a relação que você tem
@@ -125,7 +136,7 @@
                     </div>
                     <img class="photos" src="./img/maeazul.png" alt="imagem menina se olhando no espelho">
                 </div>
-                <div class="about__summary">
+                <div class="about__summary summary__mobile-about">
                     <h2>Orientação</h2>
                     <p>Você já deve ter percebido que forçar a
                         obediência só funciona por um período curto
@@ -147,40 +158,46 @@
                 <h2>Nossas referências</h2>
             </div>
             <div class="subtitle-inspirations">
-                <p>Por trás de todos os conteúdos do CanalBloom existem especialistas dedicados a produzir o melhor para sua família: </p>
+                <p>Por trás de todos os conteúdos do CanalBloom existem especialistas dedicados a produzir o melhor para
+                    sua família: </p>
             </div>
-    
+
             <div class="slide">
 
                 <div class="my-slider">
                     <div>
                         <img class="img-slide" src="./img/daniel-becker.jpg" alt="">
                         <p class="txt-img"><span>Dr. Daniel Becker</span>
-                            Mestre em Saúde Pública, pioneiro no Brasil em Pediatria Integral, colaborador da UNICEF e da Organização Mundial da Saúde.
+                            Mestre em Saúde Pública, pioneiro no Brasil em Pediatria Integral, colaborador da UNICEF e
+                            da Organização Mundial da Saúde.
                         </p>
                     </div>
                     <div>
                         <img class="img-slide" src="./img/daniel-becker.jpg" alt="">
                         <p class="txt-img"><span>Cristina Balzano Guimarães</span>
-                            Obstetriz e fisioterapeuta, especialista em massagem para bebês, professora de yoga para gestantes e atuante por 15 anos como Doula.
+                            Obstetriz e fisioterapeuta, especialista em massagem para bebês, professora de yoga para
+                            gestantes e atuante por 15 anos como Doula.
                         </p>
                     </div>
                     <div>
                         <img class="img-slide" src="./img/daniel-becker.jpg" alt="">
                         <p class="txt-img"><span>Rafaela Kahvegian</span>
-                            Psicóloga com experiência em educação infantil, é responsável dentro do CanalBloom pela curadoria de conteúdo.
+                            Psicóloga com experiência em educação infantil, é responsável dentro do CanalBloom pela
+                            curadoria de conteúdo.
                         </p>
                     </div>
                     <div>
                         <img class="img-slide" src="./img/kiara.png" alt="">
                         <p class="txt-img"><span>Kiara Terra</span>
-                            Contadora de histórias, autora de livros infantis, tem formação em Teatro pelo Célia Helena Teatro-escola e em Comunicação das Artes do Corpo na PUC-SP.
+                            Contadora de histórias, autora de livros infantis, tem formação em Teatro pelo Célia Helena
+                            Teatro-escola e em Comunicação das Artes do Corpo na PUC-SP.
                         </p>
                     </div>
                     <div>
                         <img class="img-slide" src="./img/daniel-becker.jpg" alt="">
                         <p class="txt-img"><span>Fernanda Faria</span>
-                            Contadora de histórias, formada em Artes Cênicas pela USP, pedagoga, e atriz do grupo de teatro II Trupe de Choque por 16 anos.
+                            Contadora de histórias, formada em Artes Cênicas pela USP, pedagoga, e atriz do grupo de
+                            teatro II Trupe de Choque por 16 anos.
                         </p>
                     </div>
                 </div>
@@ -192,26 +209,28 @@
             </div>
         </section>
 
-         <!-- FOOTER -->
+        <!-- FOOTER -->
 
         <footer class="footer_white">
-                <img class="icons_footer" src="./img/facebook.png" alt="">
-                <img class="icons_footer" src="./img/facebook.png" alt="">
-                <img class="icons_footer" src="./img/facebook.png" alt="">
-                <div class="links_footer">
-                    <a href="#">Sobre nós |</a>
-                    <a href="#">Blog |</a>
-                    <a href="#">Dúvidas |</a>
-                    <a href="#">Login |</a>
-                    <a href="#">Cadastrar |</a>
-                    <a href="#">Assine agora |</a>
-                    <a href="#">Tenho um voucher |</a>
-                    <a href="#">Termos de uso |</a>
-                </div>
-                <p>Copyright © 2019 CanalBloom Inc. Todos os direitos reservados.</p>
-            </footer>
+            <img class="icons_footer" src="./img/facebook.png" alt="">
+            <img class="icons_footer" src="./img/facebook.png" alt="">
+            <img class="icons_footer" src="./img/facebook.png" alt="">
+            <div class="links_footer">
+                <a href="#">Sobre nós |</a>
+                <a href="#">Blog |</a>
+                <a href="#">Dúvidas |</a>
+                <a href="#">Login |</a>
+                <a href="#">Cadastrar |</a>
+                <a href="#">Assine agora |</a>
+                <a href="#">Tenho um voucher |</a>
+                <a href="#">Termos de uso |</a>
+            </div>
+            <p>Copyright © 2019 CanalBloom Inc. Todos os direitos reservados.</p>
+        </footer>
     </main>
 </body>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.1/min/tiny-slider.js"></script>
 <script src="./js/script.js"></script>
+<script src="./js/menu.js"></script>
+
 </html>
