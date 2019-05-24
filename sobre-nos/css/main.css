@@ -32,6 +32,10 @@ h1, h2 {
     font-family: 'MarkOT-Bold', sans-serif;
 }
 
+.container {
+    width: 100%;
+}
+
 .navegacao {
     width: 90%;
     margin: 0 auto;
@@ -74,10 +78,6 @@ h1, h2 {
     color: #ffffff;
 }
 
-
-.container {
-    width: 100%;
-}
 
 h2 {
     padding-bottom: 2%;
@@ -146,7 +146,7 @@ p {
     border-radius: 16px;
     color: #fff;
     padding: 1.5vh 0;
-    width: 17vw;
+    width: 19vw;
 }
 
 .about {
@@ -229,6 +229,7 @@ p {
     overflow: hidden;
     background-color: #fff;
     position: absolute;
+    margin-left: -3%
  }
 
  .figure {
@@ -348,35 +349,6 @@ h2 {
     font-weight: bold;
 }
 
-/* Responsive */
-
-@media (max-width: 420px) {
-    .container {
-        max-width: 90%;
-    }
-
-    .subtitle-inspirations {
-    width: 100%; 
-    }
-    
-    .img-right, .img-left {
-    width: 50px
-    }
-}
-
-@media (max-width: 1024px) {
-    .container {
-        width: 100%;
-    }
-
-    .subtitle-inspirations {
-        width: 100%
-    }
-
-    .img-right, .img-right {
-        width: 50px;
-    }
-}
 
 /* FOOTER */
 
@@ -400,4 +372,120 @@ a {
     margin: 0 auto;
     width: 400px;
     padding: 40px 0px;
+    max-width: 100%;
+}
+
+
+/* Responsive */
+
+@media (max-width: 420px) {
+
+    .science h1 {
+        width: 100%;
+    }
+
+    .science__p {
+        width: 100%;
+    }
+
+    .science__method {
+        background-image: none;
+    }
+
+    .about__summary { 
+        width: 100%
+    }
+
+    h2 {
+        font-size: 2.30rem;
+        padding: 3% 0;
+    }
+
+    p {
+        font-size: 1.15rem;
+    }
+
+    .bond__purple {
+        position: relative;
+        padding: 10% 0;
+    }
+
+    .about__position {
+        margin-top: -23%;
+    }
+
+    .about__purple {
+        padding-top: 4%
+    }
+
+
+    .science__button {
+        padding: 1.7vh 0;
+        width: 60vw;
+    }
+
+    .summary__mobile {
+        padding: 25% 0;
+    }
+
+    .subtitle-inspirations {
+    width: 100%; 
+    }
+    
+    .img-right, .img-left {
+    width: 50px
+    }
+}
+
+
+@media (max-width: 414px) {
+    .about__summary {
+        padding-top: 20%;
+        padding-bottom: 10%;
+    }
+}
+
+@media (max-width: 375px) {
+
+    .science {
+        margin-top: 0%;
+    }
+    h2 {
+        font-size: 2rem;
+    }
+
+    .science__button {
+        padding: 1.6vh 0;
+        width: 67vw;
+    }
+
+    .about__summary {
+        padding-top: 0;
+    }
+
+    .summary__mobile {
+        padding: 10% 0;
+        padding-top: 20%;
+    }
+
+    .summary__mobile-about {
+        padding-top: 35%;
+        padding-bottom:10%;
+    }
+
+   
+}
+
+@media (max-width: 1024px) {
+    .container {
+        width: 100%;
+    }
+
+    .subtitle-inspirations {
+        width: 100%
+    }
+
+    .img-right, .img-right {
+        width: 50px;
+    }
 }
