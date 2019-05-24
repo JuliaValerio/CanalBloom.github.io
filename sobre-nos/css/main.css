@@ -434,12 +434,16 @@ a {
     }
 
     .summary__mobile {
+<<<<<<< HEAD
         padding: 3% 0;
     }
 
     .summary__mobile-about {
         padding-top: 60px;
         padding-bottom: 30px;    
+=======
+        padding: 25% 0;
+>>>>>>> 0e9d62242a1d43eb98a35414b7f224dea09ffde7
     }
 
     .subtitle-inspirations {
